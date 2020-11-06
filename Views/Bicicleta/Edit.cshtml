@@ -1,0 +1,61 @@
+﻿﻿@model Bike.Models.Bicicleta
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Bicicleta</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Modelo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Modelo)
+            @Html.ValidationMessageFor(model => model.Modelo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Valor)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Valor)
+            @Html.ValidationMessageFor(model => model.Valor)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.QtdEstoque)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.QtdEstoque)
+            @Html.ValidationMessageFor(model => model.QtdEstoque)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DataCadastro)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DataCadastro)
+            @Html.ValidationMessageFor(model => model.DataCadastro)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

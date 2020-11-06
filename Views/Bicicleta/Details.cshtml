@@ -1,0 +1,42 @@
+﻿﻿@model Bike.Models.Bicicleta
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<fieldset>
+    <legend>Bicicleta</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Titulo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Titulo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Valor)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Valor)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.QtdEstoque)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.QtdEstoque)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataCadastro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataCadastro)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

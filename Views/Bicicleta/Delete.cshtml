@@ -1,0 +1,46 @@
+﻿﻿@model Bike.Models.Bicicleta
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Bicicleta</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Modelo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Modelo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Valor)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Valor)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.QtdEstoque)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.QtdEstoque)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataCadastro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataCadastro)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

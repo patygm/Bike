@@ -1,0 +1,6 @@
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp2.1/Bike.csprojAssemblyReference.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp2.1/Bike.AssemblyInfoInputs.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp2.1/Bike.AssemblyInfo.cs
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp2.1/Bike.csproj.CoreCompileInputs.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp2.1/Bike.RazorAssemblyInfo.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp2.1/Bike.RazorAssemblyInfo.cs

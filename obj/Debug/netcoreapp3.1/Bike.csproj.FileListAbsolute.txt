@@ -1,0 +1,12 @@
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.csprojAssemblyReference.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.AssemblyInfoInputs.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.AssemblyInfo.cs
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.csproj.CoreCompileInputs.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.MvcApplicationPartsAssemblyInfo.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.RazorAssemblyInfo.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.RazorAssemblyInfo.cs
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.TagHelpers.input.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.TagHelpers.output.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.RazorCoreGenerate.cache
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.dll
+/home/arkmeds/Documentos/Bike/obj/Debug/netcoreapp3.1/Bike.pdb
